@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body {
+    margin: 0;
+    font-family:'Montserrat', sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gracias-img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    padding: 20px;
+}
+
+.content {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1, h2 {
+    color: #fbaf32;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #fda827;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #c566dd;
+}
+
+.footer {
+    background-color: #007bff;;
+    padding: 20px;
+    text-align: center;
+    color: #0000;
+}
+
+.footer-social a {
+    margin: 0 10px;
+    color: #f3f3f3;
+    text-decoration: none;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column ;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+.footer-social {
+    margin-top: 10px;
+}

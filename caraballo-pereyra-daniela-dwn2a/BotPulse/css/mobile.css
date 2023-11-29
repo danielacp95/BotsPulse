@@ -1,0 +1,199 @@
+
+.display-1 {
+  font-size: 50px;
+}
+
+
+#navbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 100%;
+}
+
+#navbar .logo {
+  float: none;
+  text-align: center;
+}
+
+.menu ul {
+  display: none;
+}
+
+.menu-icon {
+  display: block;
+}
+
+.menu-icon:hover {
+  color: #ccc;
+}
+
+#menu-toggle:checked + .menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+
+#showcase {
+  height: 100%;
+  padding: 50px 0;
+}
+
+.showcase-title {
+  float: none;
+  width: 100%;
+  padding-right: 0px;
+}
+
+.showcase-title p {
+  padding: 10px 0;
+}
+
+.showcase-img {
+  float: none;
+  width: 100%;
+  padding: 40px;
+}
+
+#features {
+  padding: 50px 0;
+}
+
+.features-card {
+  padding-top: 30px;
+}
+
+.card {
+  float: none;
+  width: 100%;
+  padding: 10px;
+}
+
+.column-container {
+  flex-direction: column ;
+}
+
+.column {
+  width: 100%; 
+  margin-right: 2%; 
+}
+
+.column:last-child {
+  margin-right: 0; 
+}
+
+
+.container-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  width: 100%;
+  padding: 20px;
+  margin: 20px 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-direction: column-reverse;
+}
+
+.item img,
+.item .content {
+  width: 100%;
+}
+
+.item:nth-child(2) img,
+.item:nth-child(4) img {
+  flex-direction: column-reverse; 
+}
+
+#discover {
+  padding: 60px 20px;
+}
+
+.video-section {
+  width: 100%;
+  max-width: 100%;
+  margin: 30px auto;
+}
+
+.video-section h4 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.video-section p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.video-section .item {
+  width: 100%;
+}
+
+.video-section video {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.container-1 {
+  display: block;
+}
+
+.item {
+  display: block;
+  margin: 20px 0;
+  max-width: 100%;
+}
+
+.item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.item .content {
+  padding: 20px;
+  width: 100%;
+}
+
+.item .content p {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-top: -10px;
+}
+
+.item:nth-child(2),
+.item:nth-child(4) {
+  flex-direction: row;
+}
+
+.item:nth-child(2) img,
+.item:nth-child(4) img {
+  order: initial;
+  margin-right: 0;
+  margin-bottom: 20px;
+}
+#testimonial {
+  padding: 50px 0px;
+}
+
+#testimonial h4 {
+  padding-bottom: 20px;
+}
+
+#testimonial p {
+  width: 100%;
+}
+
+
+#contact {
+  padding: 50px 0;
+}
+
+#contact form {
+  padding-top: 40px;
+  width: 90%;
+}
